@@ -1,0 +1,7 @@
+# Install the CPU or CUDA PyTorch 2.8.0 / torchvision 0.23.0 build for the target platform first.
+ultralytics==8.4.162
+numpy
+Pillow
+PyYAML
+packaging
+

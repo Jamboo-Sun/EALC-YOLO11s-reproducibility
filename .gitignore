@@ -1,0 +1,39 @@
+# Model weights and exports
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.engine
+*.tflite
+*.torchscript
+*.pb
+*.mlmodel
+
+# Local data, run outputs, and experiment artifacts
+/data/
+/datasets/
+/weights/
+/runs/
+/training_runs/
+/evaluation_runs/
+/results/
+/source_data/
+/significance/
+/sensitivity_supplement/
+/ablation/
+/ultralytics_config/
+/test_only.yaml
+*.zip
+
+# Local environments and tools
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+

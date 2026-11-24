@@ -1,0 +1,48 @@
+{
+  "dataset_archive": "input_NPD_YOLO.zip",
+  "dataset_archive_sha256": "fed08863cfca094586caa9149e3e6300a0b8e67f897a68a373aa1617b5de4e76",
+  "splits": {
+    "train": {
+      "images": 7801,
+      "boxes": 14944
+    },
+    "val": {
+      "images": 750,
+      "boxes": 1404
+    },
+    "test": {
+      "images": 379,
+      "boxes": 707
+    }
+  },
+  "totals": {
+    "images": 8930,
+    "boxes": 17055
+  },
+  "label_review_flags": {},
+  "filename_video_prefix_coverage_images": 541,
+  "historical_candidate_group_coverage_images": 8756,
+  "historical_pixel_hash_mismatches": 0,
+  "cross_split_groups": {
+    "image_sha256": 0,
+    "decoded_rgb_sha256": 0,
+    "filename_origin_candidate": 0,
+    "video_prefix_candidate": 4,
+    "historical_candidate_group_id": 242
+  },
+  "cross_split_images": {
+    "image_sha256": 0,
+    "decoded_rgb_sha256": 0,
+    "filename_origin_candidate": 0,
+    "video_prefix_candidate": 541,
+    "historical_candidate_group_id": 4871
+  },
+  "verified_source_dataset_coverage_images": 0,
+  "verified_capture_group_coverage_images": 0,
+  "limitations": [
+    "Filename stems and video prefixes are inferred from names.",
+    "Historical groups are heuristic candidates on an older archive and are transferred only where relative path and decoded RGB hash both match.",
+    "A candidate group is not a confirmed physical road segment or verified capture sequence.",
+    "The audit does not establish independence at the video/road-segment level or verify source attribution per image."
+  ]
+}
